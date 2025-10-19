@@ -59,14 +59,14 @@
 2. Соберите образ
 ```bash
 docker build -t fraud_service .
-
+```
 4. Запустите контейнер с монтированием директорий
 ```bash
 docker run -it --rm \
   -v ./input:/app/input \
   -v ./output:/app/output \
   fraud_service
-
+```
 5. После запуска контейнера сервис автоматически:
    
 	•	загрузит входной файл test.csv из папки input;
