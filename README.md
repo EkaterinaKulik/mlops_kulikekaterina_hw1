@@ -9,6 +9,7 @@
 
 ## Архитектура решения
 
+```bash
 ├── Dockerfile              
 ├── entrypoint.sh            
 ├── requirements.txt         
@@ -25,6 +26,7 @@
 │
 ├── input/                  
 └── output/                 
+```bash
 
 ## Пайплайн обработки данных
 
